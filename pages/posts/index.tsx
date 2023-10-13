@@ -18,22 +18,6 @@ function AllPostsPage(props: any) {
 
 export function getStaticProps() {
   const allPosts = getAllPosts();
-  // const allPosts = [
-  //   {
-  //     title: 'post',
-  //     image: 'nextjs-file-based-routing.png',
-  //     excerpt: 'text',
-  //     date: '2020/05/30',
-  //     slug: 'getting-started',
-  //   },
-  //   {
-  //     title: 'post2',
-  //     image: 'nextjs-file-based-routing.png',
-  //     excerpt: 'text22',
-  //     date: '2020/06/30',
-  //     slug: 'getting-started2',
-  //   },
-  // ];
   return {
     props: {
       posts: allPosts,
