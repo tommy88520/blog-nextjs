@@ -24,12 +24,6 @@ function Notification(props: any) {
     </div>,
     document.getElementById('notifications')!,
   );
-  // return (
-  //   <div className={cssClasses}>
-  //     <h2>{title}</h2>
-  //     <p>{message}</p>
-  //   </div>
-  // );
 }
 
 export default Notification;
