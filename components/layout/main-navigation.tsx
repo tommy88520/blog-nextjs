@@ -7,7 +7,7 @@ function MainNavigation() {
   const { data: session, status } = useSession();
   // const session = true;
   // const status = true;
-  console.log(status);
+  // console.log(status);
   function logoutHandler() {
     signOut();
   }
